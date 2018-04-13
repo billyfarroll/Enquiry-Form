@@ -32,7 +32,7 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 }
 
 
-$email_from = "billy@strawberrymarketing.com";
+$email_from = "billy@strawberrymarketing.com"; // This email address has to be the same email on the server if using Fasthots server i.e. strawberry server - billy@strawberrymarketing.com
 $message = $_POST["message"];
 $email_subject = "Test Form";
 $headers =
